@@ -1,0 +1,28 @@
+{
+  "name": "wp-qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --no-eslintrc --config .eslintrc.json --ignore-path .eslintignore --ext js,jsx,ts,tsx .",
+    "lint:fix": "eslint --fix --no-eslintrc --config .eslintrc.json --ignore-path .eslintignore --ext js,jsx,ts,tsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnWithHasinHayder/wp-qr-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LearnWithHasinHayder/wp-qr-code/issues"
+  },
+  "homepage": "https://github.com/LearnWithHasinHayder/wp-qr-code#readme",
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^17.6.0",
+    "@wordpress/prettier-config": "^3.6.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "prettier": "@wordpress/prettier-config"
+}
