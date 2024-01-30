@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="WP QR Code">
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName"/>
+	</rule>
+	<arg name="extensions" value="php"/>
+	<file>.</file>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+</ruleset>
