@@ -15,6 +15,10 @@ class FQC_Qr_Code {
 
     public function init() {
         add_filter('the_content', array($this, 'add_qr_code'));
+
+        require_once plugin_dir_path( __FILE__ ) . 'query-data.php';
+
+        new Query_Data();
     }
 
     public function add_qr_code($content) {
